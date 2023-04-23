@@ -12,8 +12,8 @@
 <body>
     <div class="calculator">
         <div class="screen">
-            <div class="last">42</div>
-            <div class="curr">124 + 874_</div>
+            <div class="line"><span class="last"></span></div>
+            <div class="line"><span class="curr"></span></div>
         </div>
         <div class="buttons">
             <div class="digits">
@@ -29,14 +29,14 @@
                 <button data-action="0">0</button>
             </div>
             <div class="controls">
-                <button data-action="power">ON/OFF</button>
+                <button class='power' data-action="power">ON/OFF</button>
                 <div class="operators">
                     <button data-action="mul">x</button>
                     <button data-action="div">/</button>
                     <button data-action="add">+</button>
                     <button data-action="sub">-</button>
                 </div>
-                <button data-action="equal">=</button>
+                <button class='equal' data-action="equal">=</button>
             </div>
         </div>
     </div>
